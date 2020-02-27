@@ -17,15 +17,19 @@ Create a config.py file in the local directory that looks similar to this for ea
 
 ```
 keys = {
-        "product_url": "https://www.supremenewyork.com/shop/bags/gwdz8oy2a/ya1zks84e",
-        "name": "John Fisher",
-        "email": "email@gmail.com",
-        "phone_number": "6789998212",
-        "street_address": "Forest Hills Dr.",
-        #"city": "Timbuktu", this is autofilled
-        "zip_code": "91601",
-        "card_cvv": "666",
-        "card_number": "1228199669918221"
+        "email": "youremail@email.com",
+		"password": "yourpassword",
+        "search_key": "dunk",
+        "target": ["premium"],
+        "sizes": ["40", "41"],
+        "payment_method": "credit_card",
+        "test": False,
+        "credit_card_number": "5185363648774253",
+        "credit_card_name": "JOHN C OLIVER",
+        "credit_card_month": "11",
+        "credit_card_year": "2021",
+        "credit_card_cvv": "537",
+        "parcelamento": "6"
 }
 ```
 
