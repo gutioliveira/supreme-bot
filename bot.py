@@ -30,12 +30,14 @@ def select_size(url=None):
 	for e in elements:
 		if e.get_attribute("innerText") in keys['sizes']:
 			E = e.find_elements(By.TAG_NAME, 'input')[0]
+			print('sizeChosen = ' + e.get_attribute("innerText"))
 			click_element(E);
 			return click_element(driver.find_element_by_xpath('//*[@id="btn-buy"]'));
 	elements.reverse()
 	for e in elements:
-		if e.get_attribute("innerText").isdigit():
+		if e.get_attribute("innerText").replace(',', '').isdigit():
 			E = e.find_elements(By.TAG_NAME, 'input')[0]
+			print('size = ' + e.get_attribute("innerText"))
 			click_element(E);
 			return click_element(driver.find_element_by_xpath('//*[@id="btn-buy"]'));
 

@@ -18,10 +18,10 @@ Create a config.py file in the local directory that looks similar to this for ea
 ```
 keys = {
         "email": "youremail@email.com",
-		"password": "yourpassword",
+        "password": "yourpassword",
         "search_key": "dunk",
         "target": ["premium"],
-        "sizes": ["40", "41"],
+        "sizes": ["400", "410"],
         "payment_method": "credit_card",
         "test": False,
         "credit_card_number": "5185363648774253",
