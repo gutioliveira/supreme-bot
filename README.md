@@ -21,7 +21,7 @@ keys = {
         "password": "yourpassword",
         "search_key": "dunk",
         "target": ["premium"],
-        "sizes": ["400", "410"],
+        "sizes": ["40", "41"],
         "payment_method": "credit_card",
         "test": False,
         "credit_card_number": "5185363648774253",
